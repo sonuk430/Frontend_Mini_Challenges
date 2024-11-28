@@ -1,0 +1,70 @@
+.counterApp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #414141;
+}
+
+.counter__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: fit-content;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+
+  width: 100px;
+}
+
+.btn button {
+  height: 100%;
+  width: 45%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.inputVal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.inputVal input {
+  height: 90%;
+  width: 75px;
+  border-radius: 0.5px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.resetBtn {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  background-color: blue;
+  transition: 1.5s;
+}
