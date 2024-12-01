@@ -1,0 +1,45 @@
+.guessApp {
+  text-align: center;
+  height: 100vh;
+  background-color: #414141;
+}
+
+.heading {
+  padding: 10px;
+  border-bottom: 1px solid aqua;
+  margin: 10px;
+}
+
+.guessApp__box {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.guessApp__box input {
+  height: 30px;
+  width: 300px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.guessApp__box button {
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.guessApp__box button:hover {
+  background-color: blue;
+}
