@@ -1,0 +1,13 @@
+/* .starDiv {
+  height: 30px;
+  border: solid 1px lightgrey;
+  background-color: aquamarine;
+} */
+
+.starDiv span {
+  cursor: pointer;
+}
+
+.gold {
+  color: gold;
+}
