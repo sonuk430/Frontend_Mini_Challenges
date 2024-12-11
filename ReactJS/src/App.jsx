@@ -3,6 +3,7 @@ import FoodOrderApp from "./Easy/FoodOrderApp/FoodOrderApp";
 import GuessNumber from "./Easy/GuessNumber/GuessNumber";
 import ImageGallery from "./Easy/ImageGallery/ImageGallery";
 import StarRating from "./Easy/StarRating/StarRating";
+import Todo from "./Easy/Todo/Todo";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ImageGallery /> */}
       {/* <GuessNumber /> */}
       {/* <StarRating starSize={5} /> */}
-      <FoodOrderApp />
+      {/* <FoodOrderApp /> */}
+      <Todo />
     </>
   );
 }
