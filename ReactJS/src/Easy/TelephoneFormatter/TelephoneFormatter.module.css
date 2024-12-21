@@ -1,0 +1,24 @@
+.telephoneFormatter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #414141;
+}
+
+.telephoneFormatter input {
+  height: 50px;
+  min-width: 300px;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.telephoneFormatter p {
+  font-size: 1.5rem;
+}
