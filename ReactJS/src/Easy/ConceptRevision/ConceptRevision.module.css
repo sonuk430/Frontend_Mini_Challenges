@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.revision {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+}
+
+.starBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  height: 50px;
+}
+
+.starBox span {
+  cursor: pointer;
+  border: solid 0.1px lightgray;
+}
+
+.active {
+  background-color: rgb(177, 11, 122);
+}

@@ -1,3 +1,4 @@
+import ConceptRevision from "./Easy/ConceptRevision/ConceptRevision";
 import Counter from "./Easy/counterApp/Counter";
 import FoodOrderApp from "./Easy/FoodOrderApp/FoodOrderApp";
 import GuessNumber from "./Easy/GuessNumber/GuessNumber";
@@ -6,6 +7,9 @@ import MemoConcept from "./Easy/MemoConcept/MemoConcept";
 import StarRating from "./Easy/StarRating/StarRating";
 import TelephoneFormatter from "./Easy/TelephoneFormatter/TelephoneFormatter";
 import Todo from "./Easy/Todo/Todo";
+import UseCallBackConcept from "./Easy/UseCallBackConcept/UseCallBackConcept";
+import UseMemoConcept from "./Easy/UseMemoConcept/UseMemoConcept";
+import TrafficLights from "./Medium/TrafficLights/TrafficLights";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
       {/* <FoodOrderApp /> */}
       {/* <Todo /> */}
       {/* <TelephoneFormatter /> */}
-      <MemoConcept />
+      {/* <MemoConcept /> */}
+      {/* <UseMemoConcept /> */}
+      {/* <UseCallBackConcept /> */}
+      <ConceptRevision />
+      {/* <TrafficLights numberOfLight={3} /> */}
     </>
   );
 }

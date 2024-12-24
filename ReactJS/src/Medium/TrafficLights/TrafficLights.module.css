@@ -1,0 +1,27 @@
+.trafficWrapper {
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traffic {
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 10px;
+  background-color: lightgray;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  border: solid 1px gray;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
