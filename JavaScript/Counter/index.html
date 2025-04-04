@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counterApp</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #410;
+      }
+
+      body,
+      html {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .counterApp {
+        height: 200px;
+        background: rgb(26, 89, 144);
+        width: fit-content;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .inDe {
+        height: 2rem;
+        width: 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      #count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+      }
+      #reset {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: fit-content;
+        padding: 10px;
+        background: blue;
+        border: none;
+        outline: none;
+      }
+      .inBy {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: none; */
+      }
+      .inBy input {
+        height: 100%;
+        border: solid 1px #fff;
+        outline: none;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="counterApp">
+      <div><h1 id="count">0</h1></div>
+
+      <div>
+        <button id="increment" class="inDe">+</button>
+        <button id="decrement" class="inDe">-</button>
+      </div>
+      <div class="inBy">
+        <label>Increment/Decrement by:</label>
+        <input id="incrementBy" type="number" value="1" />
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
